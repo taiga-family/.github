@@ -1,6 +1,4 @@
-<p align="center">
-    <img src="./profile/img.png" width="80%" align="center" alt="Taiga family">
-</p>
+<img src="./profile/img.png" width="100%" alt="Taiga family">
 
 <h3 align="center">
   <b><a href="https://taiga-ui.dev">Taiga UI</a></b>

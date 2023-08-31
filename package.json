@@ -1,0 +1,13 @@
+{
+  "name": "taiga-family-github",
+  "private": true,
+  "description": "This is Taiga-family's organization profile page",
+  "scripts": {
+    "prettier": "prettier '**/*.{svg,yml,js,ts,html,md,less,json}'",
+    "format": "npm run prettier -- --write"
+  },
+  "devDependencies": {
+    "prettier": "3.0.3"
+  },
+  "license": "Apache-2.0"
+}

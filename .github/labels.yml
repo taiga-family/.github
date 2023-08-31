@@ -1,0 +1,66 @@
+- name: bug
+  description: Something isn't working
+  color: D73A4A
+- name: community contribution
+  description: This issue was closed by a PR from the community
+  color: 7D00DA
+- name: contributions welcome
+  description: Architecture is clear and community can help
+  color: F488C1
+- name: dev-infra
+  description: dev-infra
+  color: 3F2963
+- name: documentation
+  description: Improvements or additions to documentation
+  color: 0075CA
+- name: feature
+  description: New feature or request
+  color: 2C4BE1
+- name: major
+  description: Renovate
+  color: EDEDED
+- name: minor
+  description: Renovate
+  color: EDEDED
+- name: patch
+  description: TRenovate
+  color: EDEDED
+- name: P1
+  description: This issue has high priority
+  color: B11D1E
+- name: P2
+  description: This issue has medium priority
+  color: FBCA04
+- name: P3
+  description: This issue has low priority
+  color: 0E8A16
+- name: ready to merge
+  description: ready
+  color: 0E8A16
+- name: S1
+  description: This issue has high severity
+  color: F9D0C4
+- name: S2
+  description: This issue has medium severity
+  color: FEFFA4
+- name: S3
+  description: This issue has low severity
+  color: BAF8AE
+- name: "state: need triage"
+  description: state need triage
+  color: C5DEF5
+- name: "state: postponed"
+  description: state need triage
+  color: C5DEF5
+- name: wontfix
+  description: This will not be worked on
+  color: FFFFFF
+- name: v2
+  description: v2
+  color: D4C5F9
+- name: v3
+  description: v3
+  color: FBCA04
+- name: v4
+  description: v4
+  color: C351D5

@@ -1,0 +1,22 @@
+name: Auto sync labels
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "40 7 * * 6"
+  push:
+    branches: [main]
+    paths:
+      - ./.github/labels.yml
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3.6.0
+      - uses: micnncim/action-label-syncer@v1.3.0
+        with:
+          manifest: ./.github/labels.yml
+          token: ${{ secrets.TAIGA_FAMILY_BOT_PAT }}
+          repository: |
+            taiga-family/.github
+            taiga-family/linters

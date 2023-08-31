@@ -1,0 +1,4 @@
+Labels: define labels for Issues and Pull Requests
+labels:
+  - name: github
+    color: '#367F46'

@@ -8,7 +8,7 @@
   description: Architecture is clear and community can help
   color: F488C1
 - name: dev-infra
-  description: dev-infra
+  description: Dev infra
   color: 3F2963
 - name: documentation
   description: Improvements or additions to documentation

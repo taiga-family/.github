@@ -5,7 +5,7 @@ on:
     paths:
       - .github/labels.yml
   schedule:
-    - cron: "40 7 * * 6"
+    - cron: "0 3 * * *"
   workflow_dispatch:
 
 jobs:
@@ -17,6 +17,7 @@ jobs:
         with:
           manifest: .github/labels.yml
           token: ${{ secrets.TAIGA_FAMILY_BOT_PAT }}
+          prune: false
           repository: |
             taiga-family/.github
             taiga-family/linters

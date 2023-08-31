@@ -21,3 +21,15 @@ jobs:
           repository: |
             taiga-family/.github
             taiga-family/linters
+            taiga-family/ng-web-apis
+            taiga-family/maskito
+            taiga-family/ng-polymorpheus
+            taiga-family/ng-morph
+            taiga-family/ng-dompurify
+            taiga-family/ng-event-plugins
+            taiga-family/ng-event-plugins
+            taiga-family/angular-contenteditable-accessor
+            taiga-family/tui-editor
+            taiga-family/renovate-config
+            taiga-family/ci
+            taiga-family/argus

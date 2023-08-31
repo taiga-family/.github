@@ -55,12 +55,3 @@
 - name: wontfix
   description: This will not be worked on
   color: FFFFFF
-- name: v2
-  description: v2
-  color: D4C5F9
-- name: v3
-  description: v3
-  color: FBCA04
-- name: v4
-  description: v4
-  color: C351D5

@@ -11,9 +11,9 @@ jobs:
     steps:
       - uses: actions/checkout@v4.1.0
       - name: Setup global variables
-        uses: taiga-family/ci/actions/variables@1.13.0
+        uses: taiga-family/ci/actions/variables@1.13.1
       - name: Setup Node.js and Cache
-        uses: taiga-family/ci/actions/setup-node@1.13.0
+        uses: taiga-family/ci/actions/setup-node@1.13.1
 
       - name: Lint check
         run: |

@@ -9,8 +9,8 @@ What kind of change does this PR introduce?
 - [ ] Tests related changes
 - [ ] Documentation content changes
 
-## What is the current behavior?
+## What is the current behaviour?
 
 Closes # <!-- link to a relevant issue. -->
 
-## What is the new behavior?
+## What is the new behaviour?

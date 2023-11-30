@@ -55,3 +55,6 @@
 - name: wontfix
   description: This will not be worked on
   color: FFFFFF
+- name: renovate-ignore
+  description: Ignore-renovate
+  color: FFFFFF

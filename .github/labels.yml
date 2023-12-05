@@ -23,7 +23,7 @@
   description: Renovate
   color: EDEDED
 - name: patch
-  description: TRenovate
+  description: Renovate
   color: EDEDED
 - name: P1
   description: This issue has high priority
@@ -56,5 +56,5 @@
   description: This will not be worked on
   color: FFFFFF
 - name: renovate-ignore
-  description: Ignore-renovate
-  color: FFFFFF
+  description: Ignore renovate for PR
+  color: C5DEF5

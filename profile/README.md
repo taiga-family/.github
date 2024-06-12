@@ -1,4 +1,4 @@
-<img src="./profile/img.png" width="100%" alt="Taiga family">
+<img src="https://raw.githubusercontent.com/taiga-family/.github/main/profile/img.png" width="100%" alt="Taiga family">
 
 <h3 align="center">
   <b><a href="https://taiga-ui.dev">Taiga UI</a></b>

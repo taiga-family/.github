@@ -1,1 +1,1 @@
-Closes # <!-- link to a relevant issue. -->
+Close # <!-- link to a relevant issue. -->

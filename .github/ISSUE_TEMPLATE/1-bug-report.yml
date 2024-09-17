@@ -11,6 +11,8 @@ body:
       description: |
         Link a CodeSandbox, Stackblitz, GitHub repository, or similar to help us reproduce the issue faster, [try reproduce in our online playground](https://taiga-ui.dev/stackblitz).
       placeholder: https://stackblitz.com/edit/angular-...
+    validations:
+      required: true
 
   - type: textarea
     id: description
@@ -30,24 +32,29 @@ body:
       required: true
 
   - type: dropdown
-    id: browser-specific
+    id: browser
     attributes:
       label: Browser Used
       description: Select the browser where the bug was observed.
       options:
-        - label: Chrome
-        - label: Firefox
-        - label: Safari
-        - label: Edge
+        - Chrome
+        - Firefox
+        - Safari
+        - Edge
+        - Other
+    validations:
+      required: true
 
   - type: dropdown
     id: operating-systems
     attributes:
-      label: Which operating systems have you used?
-      description: You may select more than one.
+      label: OS Used
+      description: Select the OS where the bug was observed.
       options:
-        - label: macOS
-        - label: Windows
-        - label: Linux
-        - label: iOS
-        - label: Android
+        - Chrome
+        - Firefox
+        - Safari
+        - Edge
+        - Other
+    validations:
+      required: true

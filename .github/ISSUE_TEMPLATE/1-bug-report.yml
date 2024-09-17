@@ -51,10 +51,10 @@ body:
       label: OS Used
       description: Select the OS where the bug was observed.
       options:
-        - Chrome
-        - Firefox
-        - Safari
-        - Edge
-        - Other
+        - macOS
+        - Windows
+        - Linux
+        - iOS
+        - Android
     validations:
       required: true

@@ -7,17 +7,9 @@ body:
   - type: input
     id: playground-link
     attributes:
-      label: Playground Link
+      label: Code Example URL
       description: |
-        Link to an isolated reproduction [in our online playground](https://taiga-ui.dev/stackblitz).
-
-        If either of the following holds true:
-        - You can't reproduce the issue in the playground
-        - Your issue requires some complex setup - such as multiple files or a specific folder structure.
-
-        So you can use any link that might help for reproduction bug: github repo, demo url, etc.
-
-        ***Help us to help you!***
+        Link a CodeSandbox, Stackblitz, GitHub repository, or similar to help us reproduce the issue faster, [try reproduce in our online playground](https://taiga-ui.dev/stackblitz).
       placeholder: https://stackblitz.com/edit/angular-...
 
   - type: textarea
@@ -25,37 +17,30 @@ body:
     attributes:
       label: Description
       placeholder: |
-        Please provide the exception or error you saw.
-        How do you trigger this bug?
-        Please walk us through it step by step.
-        Please provide a screenshot if possible.
+        Add any other context about the problem here, such as screenshots or videos.
     validations:
       required: true
-
-  - type: input
-    id: angular-version
-    attributes:
-      label: Angular version
-      placeholder: x.y.z
 
   - type: input
     id: taiga-version
     attributes:
       label: Taiga UI version
       placeholder: x.y.z
+    validations:
+      required: true
 
-  - type: checkboxes
+  - type: dropdown
     id: browser-specific
     attributes:
-      label: Which browsers have you used?
-      description: You may select more than one.
+      label: Browser Used
+      description: Select the browser where the bug was observed.
       options:
         - label: Chrome
         - label: Firefox
         - label: Safari
         - label: Edge
 
-  - type: checkboxes
+  - type: dropdown
     id: operating-systems
     attributes:
       label: Which operating systems have you used?

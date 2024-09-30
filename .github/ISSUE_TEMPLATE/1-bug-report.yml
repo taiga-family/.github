@@ -9,7 +9,7 @@ body:
     attributes:
       label: Code Example URL
       description: |
-        Link a CodeSandbox, Stackblitz, GitHub repository, or similar to help us reproduce the issue faster, [try reproduce in our online playground](https://taiga-ui.dev/stackblitz).
+        Link a Stackblitz, [try reproduce in our online playground](https://stackblitz.com/~/github.com/taiga-family/taiga-playground).
       placeholder: https://stackblitz.com/edit/angular-...
     validations:
       required: true

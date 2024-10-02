@@ -1,18 +1,16 @@
-name: ⚙️ Lint
+name: 🤖 PR author as an assignee
 on:
   pull_request:
-  push:
-    branches:
-      - main
+    types: [opened]
 
 jobs:
-  lint:
+  assign:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4.2.0
       - uses: taiga-family/ci/actions/setup/variables@v1.92.0
-      - uses: taiga-family/ci/actions/setup/node@v1.92.0
-      - run: npm run prettier -- --check
+      - uses: toshimaru/auto-author-assign@v2.1.1
+        continue-on-error: true
 
 concurrency:
   group: ${{ github.workflow }}-${{ github.ref }}

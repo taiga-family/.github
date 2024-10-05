@@ -9,7 +9,7 @@ body:
     attributes:
       label: Reproduction url
       description: |
-        Link a Stackblitz, [try reproduce in our online playground](https://stackblitz.com/~/github.com/taiga-family/taiga-playground).
+        Link a Stackblitz, [try reproduce in our online playground](https://taiga-ui.dev/stackblitz).
       placeholder: https://stackblitz.com/edit/angular-...
     validations:
       required: true

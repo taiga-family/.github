@@ -2,6 +2,7 @@ name: "🐞 - Bug Report"
 title: "🐞 - "
 description: Report a bug
 labels: ["bug", "state: need triage"]
+type: Bug
 
 body:
   - type: input

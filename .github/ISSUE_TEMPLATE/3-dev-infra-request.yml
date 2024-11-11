@@ -1,7 +1,8 @@
 name: "🤖 - Dev Infrastructure Request"
 title: "🤖 - "
 description: Suggest a feature for improve productivity
-labels: ["dev-infra", "state: need triage"]
+labels: []
+type: Task
 
 body:
   - type: textarea

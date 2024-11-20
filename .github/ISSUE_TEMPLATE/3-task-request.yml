@@ -1,0 +1,15 @@
+name: "🗂 - Task Request"
+title: "🗂 - "
+description: Suggest a enhancement
+labels: []
+type: Task
+
+body:
+  - type: textarea
+    id: description
+    attributes:
+      label: Description
+      placeholder: |
+        Provide any additional details here as needed.
+    validations:
+      required: true

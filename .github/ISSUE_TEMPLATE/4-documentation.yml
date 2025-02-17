@@ -45,4 +45,3 @@ body:
         - Android
     validations:
       required: true
-

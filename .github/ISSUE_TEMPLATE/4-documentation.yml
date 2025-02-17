@@ -1,0 +1,47 @@
+name: "📚 - Documentation"
+title: "📚 - "
+description: Report an issue in taiga-ui.dev documentation
+labels: []
+type: Documentation
+
+body:
+  - type: input
+    id: affected-url
+    attributes:
+      label: What is the affected URL?
+
+  - type: textarea
+    id: description
+    attributes:
+      label: Description
+      placeholder: Add any other context about the problem here, such as screenshots or videos.
+    validations:
+      required: true
+
+  - type: dropdown
+    id: browser
+    attributes:
+      label: Browser Used
+      description: Select the browser where the bug was observed.
+      options:
+        - Chrome
+        - Firefox
+        - Safari
+        - Edge
+        - Other
+    validations:
+      required: true
+
+  - type: dropdown
+    id: operating-systems
+    attributes:
+      label: OS Used
+      description: Select the OS where the bug was observed.
+      options:
+        - macOS
+        - Windows
+        - Linux
+        - iOS
+        - Android
+    validations:
+      required: true

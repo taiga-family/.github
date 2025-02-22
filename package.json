@@ -7,7 +7,7 @@
     "format": "npm run prettier -- --write"
   },
   "devDependencies": {
-    "prettier": "3.5.1"
+    "prettier": "3.5.2"
   },
   "license": "Apache-2.0"
 }

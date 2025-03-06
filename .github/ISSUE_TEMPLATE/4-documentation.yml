@@ -1,7 +1,7 @@
 name: "📚 - Documentation"
 title: "📚 - "
 description: Report an issue in taiga-ui.dev documentation
-labels: ["state: need triage"]
+labels: ["state: needs triage"]
 type: Documentation
 
 body:

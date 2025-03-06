@@ -1,7 +1,7 @@
 name: "🗂 - Task Request"
 title: "🗂 - "
 description: Suggest an enhancement
-labels: ["state: need triage"]
+labels: ["state: needs triage"]
 type: Task
 
 body:

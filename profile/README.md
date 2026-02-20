@@ -16,8 +16,6 @@
 Angular-focused ecosystem of UI, tooling and platform abstractions.
 </p>
 
----
-
 ## 🧩 Core ecosystem
 
 | 📂 Project                                                   | 📝 Description                            | ⭐ Stars                                                                | 🍴 Forks                                                                | 🚧 Issues                                                                 |
@@ -30,12 +28,13 @@ Angular-focused ecosystem of UI, tooling and platform abstractions.
 
 ## 🛠️ Tooling & Infrastructure
 
-| 📂 Project                                                        | 📝 Description                         | ⭐ Stars                                                                    | 🍴 Forks                                                                    | 🚧 Issues                                                                     |
-| ----------------------------------------------------------------- | -------------------------------------- | --------------------------------------------------------------------------- | --------------------------------------------------------------------------- | ----------------------------------------------------------------------------- |
-| [toolkit](https://github.com/taiga-family/toolkit)                | Shared configs and development tooling | ![Stars](https://img.shields.io/github/stars/taiga-family/toolkit)          | ![Forks](https://img.shields.io/github/forks/taiga-family/toolkit)          | ![Issues](https://img.shields.io/github/issues/taiga-family/toolkit)          |
-| [ng-morph](https://github.com/taiga-family/ng-morph)              | TypeScript AST utilities for Angular   | ![Stars](https://img.shields.io/github/stars/taiga-family/ng-morph)         | ![Forks](https://img.shields.io/github/forks/taiga-family/ng-morph)         | ![Issues](https://img.shields.io/github/issues/taiga-family/ng-morph)         |
-| [mcp](https://github.com/taiga-family/taiga-ui-mcp)               | AI integration server for Taiga UI     | ![Stars](https://img.shields.io/github/stars/taiga-family/taiga-ui-mcp)     | ![Forks](https://img.shields.io/github/forks/taiga-family/taiga-ui-mcp)     | ![Issues](https://img.shields.io/github/issues/taiga-family/taiga-ui-mcp)     |
-| [event plugins](https://github.com/taiga-family/ng-event-plugins) | Extended Angular event system          | ![Stars](https://img.shields.io/github/stars/taiga-family/ng-event-plugins) | ![Forks](https://img.shields.io/github/forks/taiga-family/ng-event-plugins) | ![Issues](https://img.shields.io/github/issues/taiga-family/ng-event-plugins) |
+| 📂 Project                                                         | 📝 Description                                          | ⭐ Stars                                                                    | 🍴 Forks                                                                    | 🚧 Issues                                                                     |
+| ------------------------------------------------------------------ | ------------------------------------------------------- | --------------------------------------------------------------------------- | --------------------------------------------------------------------------- | ----------------------------------------------------------------------------- |
+| [toolkit](https://github.com/taiga-family/toolkit)                 | Shared configs and development tooling                  | ![Stars](https://img.shields.io/github/stars/taiga-family/toolkit)          | ![Forks](https://img.shields.io/github/forks/taiga-family/toolkit)          | ![Issues](https://img.shields.io/github/issues/taiga-family/toolkit)          |
+| [ng-morph](https://github.com/taiga-family/ng-morph)               | TypeScript AST utilities for Angular                    | ![Stars](https://img.shields.io/github/stars/taiga-family/ng-morph)         | ![Forks](https://img.shields.io/github/forks/taiga-family/ng-morph)         | ![Issues](https://img.shields.io/github/issues/taiga-family/ng-morph)         |
+| [mcp](https://github.com/taiga-family/taiga-ui-mcp)                | AI integration server for Taiga UI                      | ![Stars](https://img.shields.io/github/stars/taiga-family/taiga-ui-mcp)     | ![Forks](https://img.shields.io/github/forks/taiga-family/taiga-ui-mcp)     | ![Issues](https://img.shields.io/github/issues/taiga-family/taiga-ui-mcp)     |
+| [event plugins](https://github.com/taiga-family/ng-event-plugins)  | Extended Angular event system                           | ![Stars](https://img.shields.io/github/stars/taiga-family/ng-event-plugins) | ![Forks](https://img.shields.io/github/forks/taiga-family/ng-event-plugins) | ![Issues](https://img.shields.io/github/issues/taiga-family/ng-event-plugins) |
+| [renovate config](https://github.com/taiga-family/renovate-config) | Shared Renovate configuration for dependency automation | ![Stars](https://img.shields.io/github/stars/taiga-family/renovate-config)  | ![Forks](https://img.shields.io/github/forks/taiga-family/renovate-config)  | ![Issues](https://img.shields.io/github/issues/taiga-family/renovate-config)  |
 
 ## 🧪 Experimental & Utilities
 
@@ -45,8 +44,6 @@ Angular-focused ecosystem of UI, tooling and platform abstractions.
 | [ng-draw-flow](https://github.com/taiga-family/ng-draw-flow) | Flow-based diagram editor for Angular | ![Stars](https://img.shields.io/github/stars/taiga-family/ng-draw-flow) | ![Forks](https://img.shields.io/github/forks/taiga-family/ng-draw-flow) | ![Issues](https://img.shields.io/github/issues/taiga-family/ng-draw-flow) |
 | [dompurify](https://github.com/taiga-family/ng-dompurify)    | Angular wrapper for DOMPurify         | ![Stars](https://img.shields.io/github/stars/taiga-family/ng-dompurify) | ![Forks](https://img.shields.io/github/forks/taiga-family/ng-dompurify) | ![Issues](https://img.shields.io/github/issues/taiga-family/ng-dompurify) |
 | [utils](https://github.com/taiga-family/utils)               | Shared low-level utilities            | ![Stars](https://img.shields.io/github/stars/taiga-family/utils)        | ![Forks](https://img.shields.io/github/forks/taiga-family/utils)        | ![Issues](https://img.shields.io/github/issues/taiga-family/utils)        |
-
----
 
 <p align="center">
 Built for developers who care about architecture, performance and long-term maintainability.

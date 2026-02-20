@@ -16,6 +16,8 @@
 Angular-focused ecosystem of UI, tooling and platform abstractions.
 </p>
 
+---
+
 ## 🧩 Core ecosystem
 
 | 📂 Project                                                   | 📝 Description                            | ⭐ Stars                                                                | 🍴 Forks                                                                | 🚧 Issues                                                                 |
@@ -44,6 +46,8 @@ Angular-focused ecosystem of UI, tooling and platform abstractions.
 | [ng-draw-flow](https://github.com/taiga-family/ng-draw-flow) | Flow-based diagram editor for Angular | ![Stars](https://img.shields.io/github/stars/taiga-family/ng-draw-flow) | ![Forks](https://img.shields.io/github/forks/taiga-family/ng-draw-flow) | ![Issues](https://img.shields.io/github/issues/taiga-family/ng-draw-flow) |
 | [dompurify](https://github.com/taiga-family/ng-dompurify)    | Angular wrapper for DOMPurify         | ![Stars](https://img.shields.io/github/stars/taiga-family/ng-dompurify) | ![Forks](https://img.shields.io/github/forks/taiga-family/ng-dompurify) | ![Issues](https://img.shields.io/github/issues/taiga-family/ng-dompurify) |
 | [utils](https://github.com/taiga-family/utils)               | Shared low-level utilities            | ![Stars](https://img.shields.io/github/stars/taiga-family/utils)        | ![Forks](https://img.shields.io/github/forks/taiga-family/utils)        | ![Issues](https://img.shields.io/github/issues/taiga-family/utils)        |
+
+---
 
 <p align="center">
 Built for developers who care about architecture, performance and long-term maintainability.
